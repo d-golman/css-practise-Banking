@@ -9,4 +9,7 @@ document.addEventListener('DOMContentLoaded',()=>{
             navbar.style.backgroundColor = 'transparent';
         }
     });
+    document.querySelector('.logo').addEventListener('click',()=>{
+        window.open("/index.html",'_self');
+    });
 });
