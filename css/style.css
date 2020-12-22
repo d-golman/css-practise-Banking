@@ -236,3 +236,31 @@ outline-color: #28a745;
     margin: 25px auto;
     text-align: justify;
 }
+
+/* mobile */
+@media (max-width : 768px){
+    .navbar{
+        flex-direction: column;
+        height: 120px;
+        padding: 20px;
+    }
+    .navbar a{
+        padding: 0 5px;
+    }
+    .flex-items{
+        flex-direction: column;
+        height: 50%;
+    }
+    .row{
+        flex-direction: column !important;
+    }
+
+
+    .column-2{
+        padding: 40px 10px !important;
+    }
+
+    .column img{
+        height: 100%;
+    }
+}
